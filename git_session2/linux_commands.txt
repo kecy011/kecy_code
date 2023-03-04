@@ -1,0 +1,18 @@
+# list of linux commands and functions
+ipconfig : printg out all your ip configurations and informations
+ipconfig/displaydns: display the  network information
+ipconfig/displaydns|clip: it copies the output of ipconfig/displaydns
+ipconfig /flushddns: it deelete the dns result
+nslookuo network name.com
+cls: clear screen
+powercfg /battery: gives battery report
+assoc: display files associatefd eith a particular progrmme
+sfc: system files checker
+ssh wlan show
+ssh wlan report
+ping : track the data usage of a network
+netstat -af
+route print
+route add
+shutdown
+
