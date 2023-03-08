@@ -10,12 +10,13 @@ class Impulse:
         return mass * acceleration 
 
     def get_time(self, velocity, initial_velocity, acceleration):
-        pass
+        time = (velocity -initial_velocity)/acceleration
+        return time
 
     def get_mass(force, acceleration):
         return force/acceleration
 
     def get_velocity(self, u, a, t):
-        return u + (a*t)
+        return  u + (a*t)
                                
 
